@@ -2,14 +2,15 @@
 Computation Graph 
 ![Generative_Model](https://user-images.githubusercontent.com/21220616/55679013-23bea400-5921-11e9-8244-0aff3ec7a8e7.png)
 
-## Encoder architecture are as:
+## Network Architecture
+### Encoder architecture are as:
 input (batch_size X 784) ----fc---> (784 X 400) --fc-->(400 X 100) ---fc-->(100 X 2) 
 
-## Decoder architecture are as:
+### Decoder architecture are as:
 
 input(batch_size X 2) ---fc---> (2,100) ---fc---> (100 X400) ---fc--> (400 X784)
 
-## Discriminator architecture are as:
+### Discriminator architecture are as:
 
 input(batch_size X 2) ---fc--->(2,10) ---fc---> (10,10) ---fc---> (10,2) (softmax layer)
 
