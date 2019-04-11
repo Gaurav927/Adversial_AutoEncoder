@@ -22,4 +22,6 @@ Prior distribution are taken as : Standard Bivariate Noramal Distribution mean [
 Latent dimension of Input image is taken as 2
 Learning rate for Updating Encoder in regularization training are taken small or we can equivalently weight the loss with smaller number in comparision to loss in reconstruction
 
+## Result
+
 
