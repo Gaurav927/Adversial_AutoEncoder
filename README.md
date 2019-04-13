@@ -23,6 +23,7 @@ Latent dimension of Input image is taken as 2
 Learning rate for Updating Encoder in regularization training are taken small or we can equivalently weight the loss with smaller number in comparision to loss in reconstruction
 
 ## Result
+Using encoder output size 2 (less information as comapred to 4 )
 ![result](https://user-images.githubusercontent.com/21220616/55929891-73acac00-5c3c-11e9-9155-8daa9af02f5b.jpg)
-
+Using encoder output size 4 (more information)
 
